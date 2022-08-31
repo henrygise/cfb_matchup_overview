@@ -6,7 +6,7 @@
 
 api_key <- ""
 
-cfb_adj_epa <- function(season, thru_week) {
+f_cfb_adj_epa <- function(season, thru_week) {
   
   # SETUP ####
   
