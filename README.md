@@ -15,7 +15,7 @@ df <- f_cfb_adj_epa(season = 2021, thru_week = 15)
 f_overview_plot(season = 2022, week = 1, home = "Pittsburgh", away = "West Virginia", data = df)
 ```
 
-![pic_overview](https://user-images.githubusercontent.com/80285759/187586861-e04228d4-04ff-420b-9759-bb2790e3c285.png)
+![pic_overview_UPDATED](https://user-images.githubusercontent.com/80285759/187587329-acc11825-304a-4ea9-b39c-95b96716aaf2.png)
 
 #### Showing player-specific metrics
 `f_player_tables` displays and saves the top usage and production values for the top players on each team.
