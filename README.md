@@ -19,8 +19,8 @@ f_overview_plot(season = 2022, week = 1, home = "Pittsburgh", away = "West Virgi
 
 #### Showing player-specific metrics
 `f_player_tables` displays and saves the top usage and production values for the top players on each team.
-```{r f_player_tables}
 
+```{r f_player_tables}
 f_player_tables(home = "Georgia", away = "Oregon", season = 2021)
 ```
 
