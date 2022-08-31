@@ -12,10 +12,10 @@ df <- f_cfb_adj_epa(season = 2021, thru_week = 15)
 `f_overview_plot` uses `cf_fb_adj_epa`, along with more advanced stats from https://collegefootballdata.com/, to visualize a specific college football matchup.
 
 ```{r f_overview_plot}
-f_overview_plot(season = 2022, week = 1, home = "Pittsburgh", away = "West Virginia", data = df)
+f_overview_plot(season = 2022, week = 1, home = "Ohio State", away = "Notre Dame", data = df)
 ```
 
-![pic_overview_UPDATED](https://user-images.githubusercontent.com/80285759/187587329-acc11825-304a-4ea9-b39c-95b96716aaf2.png)
+![nd_osu_week1](https://user-images.githubusercontent.com/80285759/187588706-ffaa71f2-8269-4f9e-98e1-0bcdd191051c.png)
 
 #### Showing player-specific metrics
 `f_player_tables` displays and saves the top usage and production values for the top players on each team.
