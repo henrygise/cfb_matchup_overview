@@ -6,7 +6,6 @@ A method of using advanced stats to visualize college football matchups.
 ```{r f_cfb_adj_epa}
 df <- f_cfb_adj_epa(season = 2021, thru_week = 15)
 ```
-Stats ending in "60" are "per-game" stats that assume ~60 plays/game.
 
 `f_overview_plot` uses `cf_fb_adj_epa`, along with more advanced stats from https://collegefootballdata.com/, to visualize a specific college football matchup.
 
