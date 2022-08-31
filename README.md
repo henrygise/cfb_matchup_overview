@@ -1,3 +1,4 @@
+# CFB Matchup Overview
 A method of using advanced stats to visualize college football matchups.
 
 `cfb_adj_epa` is a function that uses [Bud Davis's](https://blog.collegefootballdata.com/opponent-adjusted-stats-ridge-regression/) ridge regression technique to adjust EPA for opponent.
