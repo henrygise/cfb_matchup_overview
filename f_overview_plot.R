@@ -65,7 +65,7 @@ f_overview_plot <- function(season = 2022, week = 1, home = "Pittsburgh", away =
   if (!is.null(data)) { 
     df_adj_epa <- data
   } else {
-    df_adj_epa <- cfb_adj_epa(season, thru_week)
+    df_adj_epa <- f_cfb_adj_epa(season, thru_week)
   }
   
   df_plot <- df_adj_epa %>%
