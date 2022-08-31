@@ -3,7 +3,7 @@
 api_key <- ""
 
 
-f_overview <- function(season = 2022, week = 1, home = "Pittsburgh", away = "West Virginia", data = NULL) {
+f_overview_plot <- function(season = 2022, week = 1, home = "Pittsburgh", away = "West Virginia", data = NULL) {
   # SETUP ####
   
   # load packages
